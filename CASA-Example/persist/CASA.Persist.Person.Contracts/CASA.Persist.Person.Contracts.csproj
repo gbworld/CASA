@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\CASA.Domain.Exceptions\CASA.Domain.Exceptions.csproj" />
+    <ProjectReference Include="..\..\Domain\CASA.Domain.Models\CASA.Domain.Models.csproj" />
+    <ProjectReference Include="..\CASA.Persist.PostalCode.Contracts\CASA.Persist.PostalCode.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Framework\CASA.Framework.Authentication.Contracts\CASA.Framework.Authentication.Contracts.csproj" />
+    <ProjectReference Include="..\..\framework\CASA.Framework.ClientRouting.Contracts\CASA.Framework.ClientRouting.Contracts.csproj" />
+    <ProjectReference Include="..\..\persist\CASA.Persist.PostalCode.Contracts\CASA.Persist.PostalCode.Contracts.csproj" />
+    <ProjectReference Include="..\CASA.Core.Contracts\CASA.Core.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

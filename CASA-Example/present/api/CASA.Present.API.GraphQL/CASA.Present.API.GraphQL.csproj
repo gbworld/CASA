@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HotChocolate.AspNetCore" Version="12.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Core\CASA.Core.Contracts\CASA.Core.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\Core\CASA.Core\CASA.Core.csproj" />
+    <ProjectReference Include="..\..\..\Domain\CASA.Domain.Models\CASA.Domain.Models.csproj" />
+    <ProjectReference Include="..\..\..\Domain\Graph\CASA.Domain.Graph.Models\CASA.Domain.Graph.Models.csproj" />
+    <ProjectReference Include="..\..\..\persist\CASA.Persist.PostalCode.Contracts\CASA.Persist.PostalCode.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\Persist\CASA.Persist.PostalCode\CASA.Persist.PostalCode.csproj" />
+  </ItemGroup>
+
+</Project>
